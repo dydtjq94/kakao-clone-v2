@@ -1,0 +1,71 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friend .friend__avatar {
+  width: 50px;
+
+  border-radius: 35%;
+}
+
+/* 붙여서 쓰면 이 클라스를 둘다 가진 element에 적용됨 */
+.friend__avatar.g-avatar {
+  width: 70px;
+}
+
+.message__avatar.m-avatar {
+  width: 60px;
+
+  border-radius: 35%;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend__content .friend__status {
+  font-size: 12px;
+}
+
+.friend .chat__timestamp {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  border: 1.5px solid #52e084;
+}
+
+.friend__now-listening .now-listening_text {
+  opacity: 0.5;
+}
+
+.friend__now-listening .fa-play {
+  opacity: 0.5;
+  font-size: 10px;
+  margin-left: 1px;
+}
